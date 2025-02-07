@@ -1,12 +1,15 @@
 import time
-timestamp = time.strftime('%H:%M:%S')
+timestamp = time.strftime("The time is "'%H:%M:%S')
 print(timestamp)
+
 hour = int(time.strftime('%H'))
-print(hour)
+# print(hour)
 minute = int(time.strftime('%M'))
-print(minute)
-seconds = time.strftime('%S')
-print(seconds)
+# print(minute)
+seconds = int(time.strftime('%S'))
+# print(seconds)
+
+# if else loop for wishing the user 
 if(hour<12 and hour>5):
     print("Good Morning Sir Have A Good Day")
 elif(hour>12 and hour<18):
